@@ -1,36 +1,29 @@
-# AI Impact on Unemployment (India)
+# AI Impact on Unemployment (ETL & Analysis Project)
 
-## Project Overview
-This project analyzes unemployment trends in India before and after the rise of Artificial Intelligence (AI).
-Official unemployment datasets are used up to 2021, and AI job trend data is used to understand post-2022 employment patterns.
+## Project Title
+**AI Impact on Unemployment: An ETL and Data Analysis Approach**
 
-The study focuses on whether AI leads to job loss or job transformation and highlights the importance of workforce adaptation.
+## Introduction
+This project examines how Artificial Intelligence affects unemployment trends in India. Using **official unemployment datasets (2016–2021)** and **AI job trend data (post-2022)**, it processes and integrates multiple data sources through **ETL (Extract, Transform, Load) pipelines** to provide insights into job loss, job creation, and job transformation due to AI adoption.
 
 ## Objectives
-- Analyze unemployment trends before AI adoption
-- Compare state-level and total-level unemployment rates
-- Study AI-driven job creation after 2022
-- Understand the future impact of AI on employment
+- Perform **ETL on multiple datasets** to clean and standardize employment data.  
+- Analyze **unemployment trends before and after AI adoption**.  
+- Understand the relationship between **AI-driven job creation** and unemployment.  
+- Provide insights for **policy, reskilling, and workforce planning**.
 
-## Datasets Used
-- Unemployment in India (State-wise)
-- Unemployment upto 11-2022 
-- Total Unemployment Rate (National level)
-- AI Job Trends Dataset (Post-2022)
+## Tools Used
+- Python (Pandas, NumPy)  
+- Jupyter Notebook  
+- Matplotlib, Seaborn
 
-## Tools & Technologies
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
-
-## Key Insights
-- Unemployment increased during the 2020–2021 period due to COVID and early AI adoption.
-- Post-2022, AI-related job openings show strong growth.
-- AI causes job transformation rather than complete job loss.
-- Reskilling and upskilling are critical for reducing future unemployment.
+## Key Highlights
+- ETL pipeline merges **state-level**, **total-level**, and **AI job trend datasets**.  
+- Unemployment **increased during post-AI/COVID periods (2020–2021)**.  
+- **AI job openings in 2024** suggest large-scale **job transformation rather than job loss**.  
+- Visualizations include **stacked bar charts, line charts**, and **trend analysis**.
 
 ## Conclusion
-This project concludes that AI is reshaping the job market rather than eliminating jobs.
-Future unemployment levels will depend on skill development, education, and AI readiness.
+- AI leads to **job transformation** rather than complete job elimination.  
+- Post-2022 employment outcomes depend on **reskilling, upskilling, and AI readiness**.  
+- ETL-based analysis provides a **structured and accurate approach** to integrate multiple datasets for actionable insights.
